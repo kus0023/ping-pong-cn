@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+#game-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.rod {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background-color: #000;
+}
+
+#player1 {
+  top: 0;
+}
+
+#player2 {
+  bottom: 0;
+}
+
+#ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  border-radius: 50%;
+}
